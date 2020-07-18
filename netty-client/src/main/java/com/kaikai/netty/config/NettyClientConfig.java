@@ -22,6 +22,7 @@ public class NettyClientConfig {
     }
 
 
+
     @Bean
     public HeartbeatRequestHandler heartbeatRequestHandler() {
         return new HeartbeatRequestHandler();

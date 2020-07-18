@@ -1,0 +1,9 @@
+netty:
+  server:
+    host: 127.0.0.1 # Netty Server 地址
+    port: 8888
+spring:
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 8081
